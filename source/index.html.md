@@ -19,17 +19,6 @@ search: true
 
 # RhoMobile API Summary
 
-Some text here
+Below is a list of the new common APIs for RhoMobile Suite 6.0, which are recommended for all new projects. If you’re moving a 2.x app to 6.x, please consult the 2.x migration guide.
 
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-
-<aside class="warning">
-Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.
-</aside>
 
