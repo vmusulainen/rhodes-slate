@@ -1,0 +1,1 @@
+# Rho.ClipboardClipboard API## getText{`Android`, `iOS`}return text contain in Clipboard## hasText{`Android`, `iOS`}return true if Clipboard contain some text## setText{`Android`, `iOS`}put text to Clipboard## clear{`Android`, `iOS`}clear Clipboard

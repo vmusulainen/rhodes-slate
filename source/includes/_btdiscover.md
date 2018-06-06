@@ -1,0 +1,1 @@
+# Rho.BtdiscoverExample extension api## enumerate{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}No description yet

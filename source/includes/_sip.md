@@ -1,0 +1,1 @@
+# Rho.Sip## show{`Android`}Displays the default software keyboard on the device.## hide{`Android`}Hides the default software keyboard.

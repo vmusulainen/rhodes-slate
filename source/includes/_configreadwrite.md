@@ -1,0 +1,1 @@
+# Rho.Configreadwrite## writeToConfig{`Android`}Write to actual xml file## writeToTempConfig{`Android`}Write to temporary xml file## readFromTempConfig{`Android`}Read from temporary xml file## readFromOriginalConfig{`Android`}Read from Original xml filele

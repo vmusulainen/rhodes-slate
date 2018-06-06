@@ -1,0 +1,1 @@
+# Rho.NavbarThe NavBar API supports a native navigation bar for iOS devices.## create{`iOS`}Removes the current NavBar and replaces it with this one.## remove{`iOS`}Removes the current navigation bar. Does nothing if there is no active navigation bar.## started{`iOS`}Return true is navbar is started (used only for automatic tests)

@@ -1,46 +1,1 @@
-# Rho.Application
-
-## appBundleFolder
-{`javascript`, `ruby`} , {`android`, `ios`, `windows`}
-
-```ruby
-folder = Rho::Application.appBundleFolder
-```
-
-```javascript
-folder = Rho.Application.appBundleFolder
-```
-
-Path to apps/app folder inside the application bundle.
-
-**Parameters**
-
-No Parameters
-
-## appsBundleFolder
-```ruby
-folder = Rho::Application.appsBundleFolder
-```
-
-```javascript
-folder = Rho.Application.appsBundleFolder
-```
-Path to apps folder inside the application bundle.
-
-**Parameters**
-
-No Parameters
-
-## bundleFolder
-```ruby
-folder = Rho::Application.bundleFolder
-```
-
-```javascript
-folder = Rho.Application.bundleFolder
-```
-Path to application bundle folder.
-
-**Parameters**
-
-No Parameters
+# Rho.ApplicationThe Application class is used for accessing or setting application level configuration settings.## appBundleFolder{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to apps/app folder inside the application bundle.## appsBundleFolder{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to apps folder inside the application bundle.## bundleFolder{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to application bundle folder.## userFolder{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to folder where the application can write files and create subfolders.## configPath{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to the configuration file.## modelsManifestPath{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to file with the model list.## databaseBlobFolder{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to folder where the database blob files are stored. Blobs are usually images or binary files. In the ORM Model you would specify that the attribute is of type blob Ex. When capturing an image, the actual file is saved in the databaseBlobFolder.## publicFolder{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to the application's public folder.## startURI{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Startup page for your application.## settingsPageURI{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Settings page URI. Will be used when Options menu or toolbar item is chosen by user.## splash{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Splash screen image display options. This a string with several parameters divided by ';': delay=5;center;hcenter;vcenter;vzoom;hzoom;zoom.## version{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Version from build time configuration file (build.yml).## title{`Win32`, `WM`}Define Window caption text. If missed - caption from page used. Not supported on Windows CE devices.## appName{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Application name.## locale{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Current application locale.Like 'en', 'ru' etc.## country{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Current application country code.## nativeMenu{`Android`, `CE`, `WP8`, `Win32`, `WM`}Visible label.## defaultNativeMenu{`Android`, `CE`, `WP8`, `Win32`, `WM`}Native Menu items.## securityTokenNotPassed{`Android`, `CE`, `Win32`, `iOS`, `WM`}Indicates if the security token check was failed. Security token can be set in build.yml: security_token. Same security token should be passed as command line parameter '-security_token=token_value' to application. If security token check failed : if this page exist then application navigate to it, otherwise application will exit.## invalidSecurityTokenStartPath{`Android`, `CE`, `Win32`, `iOS`, `WM`}Page to navigate to in case of check of SecurityToken failed. Can be set in rhoconfig.txt: invalid_security_token_start_path;## rhoPlatformVersion{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}The version of RhoMobile platform, which was used to build the application.## badLinkURI{`WM`}Bad link URI to navigate in browser. This is defined in config.xml: Navigation\\BadLinkURI.## modelFolderPath{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Folder of the model by name.## databaseFilePath{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Path to the ORM database file by partition name. Please note that this function does not create a database file. This function only generates the file path based on the application path and partition name.## expandDatabaseBlobFilePath{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Generates the absolute path to database blob file. Please note that this function does not the create database file. This function only generates the file path based on application path and partition name.## relativeDatabaseBlobFilePath{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Generates the relative path to database blob file. Please note that this function does not create a database file. This function only generates the file path based on the application path and partition name.## quit{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Quit the application.## minimize{`CE`, `Win32`, `WM`}Minimize or move the application to background. When running in RhoSimulator this method is supported only for Windows OS.## restore{`CE`, `Win32`, `WM`}Restores the application to be in the foreground. When running in RhoSimulator the method is supported only for Windows OS.## setApplicationNotify{`Android`, `CE`, `Win32`, `iOS`, `WM`}This method allows your application to register for application specific events like application activation/deactivation, UI creation/destruction as well as others. Check the Callback section for details.## processApplicationEvent{`Android`, `CE`, `Win32`, `iOS`, `WM`}Ruby applications must use this method for processing of the application Event. May be called from setApplicationNotify callback.This method should be called for each event. The only exception is SyncUserChanged, where you can choose your own reset database logic.## setLocale{`Android`, `CE`, `Sailfish`, `WM`, `WP8`, `Win32`, `iOS`}Set application specific locale.

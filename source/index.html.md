@@ -10,8 +10,63 @@ toc_footers:
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
+  - adapter
   - application
+  - audiocapture
   - barcode
+  - battery
+  - btdiscover
+  - camera
+  - cardreader
+  - clipboard
+  - config
+  - configreadwrite
+  - connectionchecking
+  - database
+  - device
+  - devicememory
+  - devicesecurity
+  - eventsource
+  - eznfc
+  - intent
+  - keycapture
+  - keystate
+  - log
+  - logcapture
+  - mediaplayer
+  - message
+  - mobilepayment
+  - nativemenubar
+  - nativetabbar
+  - nativetoolbar
+  - navbar
+  - network
+  - neworm
+  - newormmodel
+  - notification
+  - orm
+  - printer
+  - printerzebra
+  - printingepson
+  - process
+  - push
+  - record
+  - rhoconnectclient
+  - rhofile
+  - screenorientation
+  - sensor
+  - signalindicators
+  - signature
+  - simulscan
+  - sip
+  - smartcradle
+  - system
+  - tag
+  - timer
+  - videocapture
+  - websocket
+  - webview
+
 
 
 search: true
